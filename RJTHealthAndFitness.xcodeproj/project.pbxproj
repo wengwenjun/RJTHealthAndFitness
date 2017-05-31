@@ -7,15 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		151665F21EDC84CF00A21646 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151665F11EDC84CF00A21646 /* LeaderboardViewController.swift */; };
+		151665F41EDCB07700A21646 /* Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151665F31EDCB07700A21646 /* Leaderboard.swift */; };
+		151665F71EDD070700A21646 /* LeaderboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151665F61EDD070700A21646 /* LeaderboardTableViewCell.swift */; };
+		151665F91EDDFFD500A21646 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151665F81EDDFFD500A21646 /* MaterialView.swift */; };
+		152632711ECF6DBB00AFE602 /* Line.png in Resources */ = {isa = PBXBuildFile; fileRef = 152632701ECF6DBB00AFE602 /* Line.png */; };
+		152632731ECF772300AFE602 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152632721ECF772300AFE602 /* SignUpViewController.swift */; };
+		152632771ECF832100AFE602 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 152632761ECF832100AFE602 /* facebook.png */; };
+		152632791ECF842A00AFE602 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152632781ECF842A00AFE602 /* SignInViewController.swift */; };
+		1526327E1ECF98C000AFE602 /* SLR Camera-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 1526327D1ECF98C000AFE602 /* SLR Camera-64.png */; };
+		152632801ECF9BC400AFE602 /* Fill 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1526327F1ECF9BC400AFE602 /* Fill 4.png */; };
+		152632821ECF9E5200AFE602 /* Camera Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 152632811ECF9E5200AFE602 /* Camera Icon.png */; };
+		15350F671ED64DF30035D623 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15350F661ED64DF30035D623 /* NavigationViewController.swift */; };
+		15350F691ED69F400035D623 /* BodyTempatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15350F681ED69F400035D623 /* BodyTempatureViewController.swift */; };
+		15350F6B1ED721950035D623 /* bodyTempature.png in Resources */ = {isa = PBXBuildFile; fileRef = 15350F6A1ED721950035D623 /* bodyTempature.png */; };
+		154F94471ED2C37000F6F4DD /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154F94461ED2C37000F6F4DD /* TabbarViewController.swift */; };
+		154F944A1ED2D02B00F6F4DD /* HeartRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154F94491ED2D02B00F6F4DD /* HeartRateViewController.swift */; };
+		154F944C1ED3309900F6F4DD /* Menu_.png in Resources */ = {isa = PBXBuildFile; fileRef = 154F944B1ED3309900F6F4DD /* Menu_.png */; };
+		154F94501ED3342B00F6F4DD /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 154F944F1ED3342B00F6F4DD /* BG.png */; };
+		154F94521ED3357200F6F4DD /* Health icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 154F94511ED3357200F6F4DD /* Health icon.png */; };
+		154F94541ED336FD00F6F4DD /* bpm .png in Resources */ = {isa = PBXBuildFile; fileRef = 154F94531ED336FD00F6F4DD /* bpm .png */; };
+		154F94581ED33B7800F6F4DD /* purple heart beat.png in Resources */ = {isa = PBXBuildFile; fileRef = 154F94571ED33B7800F6F4DD /* purple heart beat.png */; };
+		154F94641ED3904E00F6F4DD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154F94631ED3904E00F6F4DD /* BaseViewController.swift */; };
+		154F946A1ED3F68400F6F4DD /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154F94691ED3F68400F6F4DD /* Singleton.swift */; };
+		154F946C1ED4A83500F6F4DD /* StepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154F946B1ED4A83500F6F4DD /* StepViewController.swift */; };
+		154F94771ED5454E00F6F4DD /* Entity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154F94751ED5454E00F6F4DD /* Entity+CoreDataClass.swift */; };
+		154F94781ED5454E00F6F4DD /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154F94761ED5454E00F6F4DD /* Entity+CoreDataProperties.swift */; };
+		1567D08F1ED877CC00FB6B6E /* DateFormatter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567D08E1ED877CC00FB6B6E /* DateFormatter+Ext.swift */; };
+		1567D0911ED92F1500FB6B6E /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567D0901ED92F1500FB6B6E /* FriendViewController.swift */; };
+		1567D0941EDA83F400FB6B6E /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567D0921EDA83F400FB6B6E /* Env.swift */; };
+		1567D0951EDA83F400FB6B6E /* ExamplesDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567D0931EDA83F400FB6B6E /* ExamplesDefaults.swift */; };
+		1567D0971EDBF19D00FB6B6E /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567D0961EDBF19D00FB6B6E /* FriendTableViewCell.swift */; };
+		1567D09A1EDBF25300FB6B6E /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567D0991EDBF25300FB6B6E /* Friend.swift */; };
+		15C41DC11ED756C900FC863C /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C41DC01ED756C900FC863C /* ChartViewController.swift */; };
 		15EBABAB1ECE3D0600051205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EBABAA1ECE3D0600051205 /* AppDelegate.swift */; };
 		15EBABAD1ECE3D0600051205 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EBABAC1ECE3D0600051205 /* ViewController.swift */; };
 		15EBABB01ECE3D0600051205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABAE1ECE3D0600051205 /* Main.storyboard */; };
 		15EBABB31ECE3D0600051205 /* RJTHealthAndFitness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15EBABB11ECE3D0600051205 /* RJTHealthAndFitness.xcdatamodeld */; };
 		15EBABB51ECE3D0600051205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABB41ECE3D0600051205 /* Assets.xcassets */; };
 		15EBABB81ECE3D0600051205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABB61ECE3D0600051205 /* LaunchScreen.storyboard */; };
+		15EBABC11ECE44A000051205 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABC01ECE44A000051205 /* GoogleService-Info.plist */; };
+		15EBABC71ECE51A500051205 /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABC61ECE51A500051205 /* 15.png */; };
+		15EBABC91ECEB01100051205 /* blur_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABC81ECEB01100051205 /* blur_bg.png */; };
+		15EBABCB1ECEB04500051205 /* Bitmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABCA1ECEB04500051205 /* Bitmap.png */; };
+		15EBABCD1ECEB06700051205 /* Mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABCC1ECEB06700051205 /* Mask.png */; };
+		15EBABCF1ECEB14300051205 /* fitness1.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABCE1ECEB14300051205 /* fitness1.png */; };
+		15EBABD61ECEB71700051205 /* Oval 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABD11ECEB71700051205 /* Oval 7.png */; };
+		15EBABD71ECEB71700051205 /* Oval 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABD21ECEB71700051205 /* Oval 9.png */; };
+		15EBABD81ECEB71700051205 /* Oval 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABD31ECEB71700051205 /* Oval 10.png */; };
+		15EBABD91ECEB71700051205 /* Rectangle 476.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABD41ECEB71700051205 /* Rectangle 476.png */; };
+		15EBABDA1ECEB71700051205 /* Oval 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABD51ECEB71700051205 /* Oval 8.png */; };
+		15EBABDC1ECEC52200051205 /* img_blue_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABDB1ECEC52200051205 /* img_blue_box.png */; };
+		15EBABDE1ECEC54900051205 /* img_blurred_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABDD1ECEC54900051205 /* img_blurred_background.png */; };
+		15EBABE01ECEC71C00051205 /* HeartBeat.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABDF1ECEC71C00051205 /* HeartBeat.png */; };
+		15EBABE21ECEC74C00051205 /* Rectangle 79 Copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABE11ECEC74C00051205 /* Rectangle 79 Copy.png */; };
+		15EBABE41ECEC9F800051205 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EBABE31ECEC9F800051205 /* SecondViewController.swift */; };
+		15EBABE61ECECC0B00051205 /* share with friend.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABE51ECECC0B00051205 /* share with friend.png */; };
+		15EBABE81ECECCD500051205 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EBABE71ECECCD500051205 /* ThirdViewController.swift */; };
+		15EBABEA1ECECD8400051205 /* ready.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABE91ECECD8400051205 /* ready.png */; };
+		15EBABEC1ECECDE600051205 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EBABEB1ECECDE600051205 /* FourthViewController.swift */; };
+		15EBABEE1ECECE5B00051205 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABED1ECECE5B00051205 /* Button.png */; };
+		15EBABF91ECF4CFA00051205 /* circlebig.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABF81ECF4CFA00051205 /* circlebig.png */; };
+		15EBABFB1ECF4D0F00051205 /* circlesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 15EBABFA1ECF4D0F00051205 /* circlesmall.png */; };
+		8A4776FCB414552227F29D06 /* Pods_RJTHealthAndFitness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32A91DBFC3EC9E6946814F0 /* Pods_RJTHealthAndFitness.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		151665F11EDC84CF00A21646 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		151665F31EDCB07700A21646 /* Leaderboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leaderboard.swift; sourceTree = "<group>"; };
+		151665F61EDD070700A21646 /* LeaderboardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardTableViewCell.swift; sourceTree = "<group>"; };
+		151665F81EDDFFD500A21646 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		152632701ECF6DBB00AFE602 /* Line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Line.png; sourceTree = "<group>"; };
+		152632721ECF772300AFE602 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		152632761ECF832100AFE602 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		152632781ECF842A00AFE602 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		1526327D1ECF98C000AFE602 /* SLR Camera-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLR Camera-64.png"; sourceTree = "<group>"; };
+		1526327F1ECF9BC400AFE602 /* Fill 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fill 4.png"; sourceTree = "<group>"; };
+		152632811ECF9E5200AFE602 /* Camera Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera Icon.png"; sourceTree = "<group>"; };
+		15350F661ED64DF30035D623 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		15350F681ED69F400035D623 /* BodyTempatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyTempatureViewController.swift; sourceTree = "<group>"; };
+		15350F6A1ED721950035D623 /* bodyTempature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bodyTempature.png; sourceTree = "<group>"; };
+		154F94461ED2C37000F6F4DD /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		154F94491ED2D02B00F6F4DD /* HeartRateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateViewController.swift; sourceTree = "<group>"; };
+		154F944B1ED3309900F6F4DD /* Menu_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu_.png; sourceTree = "<group>"; };
+		154F944F1ED3342B00F6F4DD /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG.png; sourceTree = "<group>"; };
+		154F94511ED3357200F6F4DD /* Health icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Health icon.png"; sourceTree = "<group>"; };
+		154F94531ED336FD00F6F4DD /* bpm .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bpm .png"; sourceTree = "<group>"; };
+		154F94571ED33B7800F6F4DD /* purple heart beat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "purple heart beat.png"; sourceTree = "<group>"; };
+		154F94631ED3904E00F6F4DD /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		154F94691ED3F68400F6F4DD /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		154F946B1ED4A83500F6F4DD /* StepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepViewController.swift; sourceTree = "<group>"; };
+		154F94751ED5454E00F6F4DD /* Entity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Entity+CoreDataClass.swift"; path = "RJTHealthAndFitness/Entity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		154F94761ED5454E00F6F4DD /* Entity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Entity+CoreDataProperties.swift"; path = "RJTHealthAndFitness/Entity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1567D08E1ED877CC00FB6B6E /* DateFormatter+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Ext.swift"; sourceTree = "<group>"; };
+		1567D0901ED92F1500FB6B6E /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		1567D0921EDA83F400FB6B6E /* Env.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		1567D0931EDA83F400FB6B6E /* ExamplesDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplesDefaults.swift; sourceTree = "<group>"; };
+		1567D0961EDBF19D00FB6B6E /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		1567D0991EDBF25300FB6B6E /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		15C41DC01ED756C900FC863C /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		15EBABA71ECE3D0600051205 /* RJTHealthAndFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJTHealthAndFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15EBABAA1ECE3D0600051205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15EBABAC1ECE3D0600051205 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +114,33 @@
 		15EBABB41ECE3D0600051205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15EBABB71ECE3D0600051205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15EBABB91ECE3D0600051205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EBABBF1ECE3D0D00051205 /* RJTHealthAndFitness.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RJTHealthAndFitness.entitlements; sourceTree = "<group>"; };
+		15EBABC01ECE44A000051205 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		15EBABC61ECE51A500051205 /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
+		15EBABC81ECEB01100051205 /* blur_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blur_bg.png; sourceTree = "<group>"; };
+		15EBABCA1ECEB04500051205 /* Bitmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bitmap.png; sourceTree = "<group>"; };
+		15EBABCC1ECEB06700051205 /* Mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mask.png; sourceTree = "<group>"; };
+		15EBABCE1ECEB14300051205 /* fitness1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fitness1.png; sourceTree = "<group>"; };
+		15EBABD11ECEB71700051205 /* Oval 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 7.png"; sourceTree = "<group>"; };
+		15EBABD21ECEB71700051205 /* Oval 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 9.png"; sourceTree = "<group>"; };
+		15EBABD31ECEB71700051205 /* Oval 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 10.png"; sourceTree = "<group>"; };
+		15EBABD41ECEB71700051205 /* Rectangle 476.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 476.png"; sourceTree = "<group>"; };
+		15EBABD51ECEB71700051205 /* Oval 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 8.png"; sourceTree = "<group>"; };
+		15EBABDB1ECEC52200051205 /* img_blue_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_blue_box.png; sourceTree = "<group>"; };
+		15EBABDD1ECEC54900051205 /* img_blurred_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_blurred_background.png; sourceTree = "<group>"; };
+		15EBABDF1ECEC71C00051205 /* HeartBeat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeartBeat.png; sourceTree = "<group>"; };
+		15EBABE11ECEC74C00051205 /* Rectangle 79 Copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 79 Copy.png"; sourceTree = "<group>"; };
+		15EBABE31ECEC9F800051205 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		15EBABE51ECECC0B00051205 /* share with friend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share with friend.png"; sourceTree = "<group>"; };
+		15EBABE71ECECCD500051205 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		15EBABE91ECECD8400051205 /* ready.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ready.png; sourceTree = "<group>"; };
+		15EBABEB1ECECDE600051205 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		15EBABED1ECECE5B00051205 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		15EBABF81ECF4CFA00051205 /* circlebig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circlebig.png; sourceTree = "<group>"; };
+		15EBABFA1ECF4D0F00051205 /* circlesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circlesmall.png; sourceTree = "<group>"; };
+		D7D01072ABDD3556CA5E71FE /* Pods-RJTHealthAndFitness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJTHealthAndFitness.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RJTHealthAndFitness/Pods-RJTHealthAndFitness.debug.xcconfig"; sourceTree = "<group>"; };
+		E32A91DBFC3EC9E6946814F0 /* Pods_RJTHealthAndFitness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJTHealthAndFitness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43BAF1EAA94FE34CCA84FCD /* Pods-RJTHealthAndFitness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJTHealthAndFitness.release.xcconfig"; path = "Pods/Target Support Files/Pods-RJTHealthAndFitness/Pods-RJTHealthAndFitness.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +148,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A4776FCB414552227F29D06 /* Pods_RJTHealthAndFitness.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1526327A1ECF88A900AFE602 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				15EBABAC1ECE3D0600051205 /* ViewController.swift */,
+				15EBABE31ECEC9F800051205 /* SecondViewController.swift */,
+				15EBABE71ECECCD500051205 /* ThirdViewController.swift */,
+				15EBABEB1ECECDE600051205 /* FourthViewController.swift */,
+				15350F661ED64DF30035D623 /* NavigationViewController.swift */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		154F94481ED2D00900F6F4DD /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				154F94461ED2C37000F6F4DD /* TabbarViewController.swift */,
+				154F94491ED2D02B00F6F4DD /* HeartRateViewController.swift */,
+				154F946B1ED4A83500F6F4DD /* StepViewController.swift */,
+				15C41DC01ED756C900FC863C /* ChartViewController.swift */,
+				15350F681ED69F400035D623 /* BodyTempatureViewController.swift */,
+				1567D0901ED92F1500FB6B6E /* FriendViewController.swift */,
+				1567D0961EDBF19D00FB6B6E /* FriendTableViewCell.swift */,
+				151665F11EDC84CF00A21646 /* LeaderboardViewController.swift */,
+				151665F61EDD070700A21646 /* LeaderboardTableViewCell.swift */,
+				1567D08E1ED877CC00FB6B6E /* DateFormatter+Ext.swift */,
+				1567D0921EDA83F400FB6B6E /* Env.swift */,
+				1567D0931EDA83F400FB6B6E /* ExamplesDefaults.swift */,
+				151665F81EDDFFD500A21646 /* MaterialView.swift */,
+			);
+			name = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		1567D0981EDBF23200FB6B6E /* Model Class */ = {
+			isa = PBXGroup;
+			children = (
+				1567D0991EDBF25300FB6B6E /* Friend.swift */,
+				151665F31EDCB07700A21646 /* Leaderboard.swift */,
+			);
+			name = "Model Class";
+			sourceTree = "<group>";
+		};
 		15EBAB9E1ECE3D0600051205 = {
 			isa = PBXGroup;
 			children = (
+				154F94751ED5454E00F6F4DD /* Entity+CoreDataClass.swift */,
+				154F94761ED5454E00F6F4DD /* Entity+CoreDataProperties.swift */,
 				15EBABA91ECE3D0600051205 /* RJTHealthAndFitness */,
 				15EBABA81ECE3D0600051205 /* Products */,
+				98B0F123FAD8EF48B37D7A2E /* Pods */,
+				7F4AB59BD7C6C7A5BB1BB4CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +219,78 @@
 		15EBABA91ECE3D0600051205 /* RJTHealthAndFitness */ = {
 			isa = PBXGroup;
 			children = (
+				15EBABD01ECEB70700051205 /* image */,
+				15EBABBF1ECE3D0D00051205 /* RJTHealthAndFitness.entitlements */,
 				15EBABAA1ECE3D0600051205 /* AppDelegate.swift */,
-				15EBABAC1ECE3D0600051205 /* ViewController.swift */,
+				154F94631ED3904E00F6F4DD /* BaseViewController.swift */,
+				154F94691ED3F68400F6F4DD /* Singleton.swift */,
+				1526327A1ECF88A900AFE602 /* Intro */,
+				152632721ECF772300AFE602 /* SignUpViewController.swift */,
+				152632781ECF842A00AFE602 /* SignInViewController.swift */,
+				1567D0981EDBF23200FB6B6E /* Model Class */,
+				154F94481ED2D00900F6F4DD /* Tab Bar */,
 				15EBABAE1ECE3D0600051205 /* Main.storyboard */,
 				15EBABB41ECE3D0600051205 /* Assets.xcassets */,
 				15EBABB61ECE3D0600051205 /* LaunchScreen.storyboard */,
 				15EBABB91ECE3D0600051205 /* Info.plist */,
 				15EBABB11ECE3D0600051205 /* RJTHealthAndFitness.xcdatamodeld */,
+				15EBABC01ECE44A000051205 /* GoogleService-Info.plist */,
 			);
 			path = RJTHealthAndFitness;
+			sourceTree = "<group>";
+		};
+		15EBABD01ECEB70700051205 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				15350F6A1ED721950035D623 /* bodyTempature.png */,
+				154F94571ED33B7800F6F4DD /* purple heart beat.png */,
+				154F94531ED336FD00F6F4DD /* bpm .png */,
+				154F94511ED3357200F6F4DD /* Health icon.png */,
+				154F944B1ED3309900F6F4DD /* Menu_.png */,
+				152632811ECF9E5200AFE602 /* Camera Icon.png */,
+				1526327F1ECF9BC400AFE602 /* Fill 4.png */,
+				1526327D1ECF98C000AFE602 /* SLR Camera-64.png */,
+				152632761ECF832100AFE602 /* facebook.png */,
+				152632701ECF6DBB00AFE602 /* Line.png */,
+				15EBABED1ECECE5B00051205 /* Button.png */,
+				15EBABF81ECF4CFA00051205 /* circlebig.png */,
+				15EBABE91ECECD8400051205 /* ready.png */,
+				15EBABE51ECECC0B00051205 /* share with friend.png */,
+				154F944F1ED3342B00F6F4DD /* BG.png */,
+				15EBABE11ECEC74C00051205 /* Rectangle 79 Copy.png */,
+				15EBABFA1ECF4D0F00051205 /* circlesmall.png */,
+				15EBABDF1ECEC71C00051205 /* HeartBeat.png */,
+				15EBABDB1ECEC52200051205 /* img_blue_box.png */,
+				15EBABDD1ECEC54900051205 /* img_blurred_background.png */,
+				15EBABD11ECEB71700051205 /* Oval 7.png */,
+				15EBABD21ECEB71700051205 /* Oval 9.png */,
+				15EBABD31ECEB71700051205 /* Oval 10.png */,
+				15EBABD41ECEB71700051205 /* Rectangle 476.png */,
+				15EBABD51ECEB71700051205 /* Oval 8.png */,
+				15EBABCE1ECEB14300051205 /* fitness1.png */,
+				15EBABCC1ECEB06700051205 /* Mask.png */,
+				15EBABCA1ECEB04500051205 /* Bitmap.png */,
+				15EBABC81ECEB01100051205 /* blur_bg.png */,
+				15EBABC61ECE51A500051205 /* 15.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		7F4AB59BD7C6C7A5BB1BB4CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E32A91DBFC3EC9E6946814F0 /* Pods_RJTHealthAndFitness.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98B0F123FAD8EF48B37D7A2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7D01072ABDD3556CA5E71FE /* Pods-RJTHealthAndFitness.debug.xcconfig */,
+				E43BAF1EAA94FE34CCA84FCD /* Pods-RJTHealthAndFitness.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +300,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15EBABBC1ECE3D0600051205 /* Build configuration list for PBXNativeTarget "RJTHealthAndFitness" */;
 			buildPhases = (
+				0D869D969CB1CBA5C74160CC /* [CP] Check Pods Manifest.lock */,
 				15EBABA31ECE3D0600051205 /* Sources */,
 				15EBABA41ECE3D0600051205 /* Frameworks */,
 				15EBABA51ECE3D0600051205 /* Resources */,
+				BCC38636C58F2153105C8AA5 /* [CP] Embed Pods Frameworks */,
+				89A43BB7806A2B3F13BD3177 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -101,6 +330,11 @@
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = RQAE768Z9N;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,22 +361,126 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15EBABE21ECEC74C00051205 /* Rectangle 79 Copy.png in Resources */,
+				15EBABEA1ECECD8400051205 /* ready.png in Resources */,
+				154F94501ED3342B00F6F4DD /* BG.png in Resources */,
+				152632771ECF832100AFE602 /* facebook.png in Resources */,
+				1526327E1ECF98C000AFE602 /* SLR Camera-64.png in Resources */,
+				15350F6B1ED721950035D623 /* bodyTempature.png in Resources */,
 				15EBABB81ECE3D0600051205 /* LaunchScreen.storyboard in Resources */,
+				15EBABC91ECEB01100051205 /* blur_bg.png in Resources */,
+				15EBABCF1ECEB14300051205 /* fitness1.png in Resources */,
+				15EBABC11ECE44A000051205 /* GoogleService-Info.plist in Resources */,
+				152632801ECF9BC400AFE602 /* Fill 4.png in Resources */,
+				15EBABF91ECF4CFA00051205 /* circlebig.png in Resources */,
+				154F94521ED3357200F6F4DD /* Health icon.png in Resources */,
+				15EBABD71ECEB71700051205 /* Oval 9.png in Resources */,
+				15EBABDA1ECEB71700051205 /* Oval 8.png in Resources */,
+				15EBABDC1ECEC52200051205 /* img_blue_box.png in Resources */,
+				154F94541ED336FD00F6F4DD /* bpm .png in Resources */,
+				154F94581ED33B7800F6F4DD /* purple heart beat.png in Resources */,
+				15EBABD81ECEB71700051205 /* Oval 10.png in Resources */,
+				15EBABDE1ECEC54900051205 /* img_blurred_background.png in Resources */,
+				154F944C1ED3309900F6F4DD /* Menu_.png in Resources */,
+				15EBABFB1ECF4D0F00051205 /* circlesmall.png in Resources */,
+				15EBABEE1ECECE5B00051205 /* Button.png in Resources */,
+				15EBABC71ECE51A500051205 /* 15.png in Resources */,
 				15EBABB51ECE3D0600051205 /* Assets.xcassets in Resources */,
+				15EBABD61ECEB71700051205 /* Oval 7.png in Resources */,
 				15EBABB01ECE3D0600051205 /* Main.storyboard in Resources */,
+				15EBABCB1ECEB04500051205 /* Bitmap.png in Resources */,
+				152632821ECF9E5200AFE602 /* Camera Icon.png in Resources */,
+				15EBABD91ECEB71700051205 /* Rectangle 476.png in Resources */,
+				15EBABE01ECEC71C00051205 /* HeartBeat.png in Resources */,
+				152632711ECF6DBB00AFE602 /* Line.png in Resources */,
+				15EBABE61ECECC0B00051205 /* share with friend.png in Resources */,
+				15EBABCD1ECEB06700051205 /* Mask.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D869D969CB1CBA5C74160CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89A43BB7806A2B3F13BD3177 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RJTHealthAndFitness/Pods-RJTHealthAndFitness-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCC38636C58F2153105C8AA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RJTHealthAndFitness/Pods-RJTHealthAndFitness-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		15EBABA31ECE3D0600051205 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				154F94781ED5454E00F6F4DD /* Entity+CoreDataProperties.swift in Sources */,
+				15EBABEC1ECECDE600051205 /* FourthViewController.swift in Sources */,
+				154F946A1ED3F68400F6F4DD /* Singleton.swift in Sources */,
+				152632731ECF772300AFE602 /* SignUpViewController.swift in Sources */,
+				1567D0951EDA83F400FB6B6E /* ExamplesDefaults.swift in Sources */,
+				1567D0911ED92F1500FB6B6E /* FriendViewController.swift in Sources */,
+				1567D08F1ED877CC00FB6B6E /* DateFormatter+Ext.swift in Sources */,
+				151665F21EDC84CF00A21646 /* LeaderboardViewController.swift in Sources */,
+				1567D0941EDA83F400FB6B6E /* Env.swift in Sources */,
+				154F94641ED3904E00F6F4DD /* BaseViewController.swift in Sources */,
+				15C41DC11ED756C900FC863C /* ChartViewController.swift in Sources */,
+				151665F41EDCB07700A21646 /* Leaderboard.swift in Sources */,
+				15EBABE41ECEC9F800051205 /* SecondViewController.swift in Sources */,
 				15EBABB31ECE3D0600051205 /* RJTHealthAndFitness.xcdatamodeld in Sources */,
+				152632791ECF842A00AFE602 /* SignInViewController.swift in Sources */,
+				15350F671ED64DF30035D623 /* NavigationViewController.swift in Sources */,
+				154F944A1ED2D02B00F6F4DD /* HeartRateViewController.swift in Sources */,
+				1567D09A1EDBF25300FB6B6E /* Friend.swift in Sources */,
+				151665F71EDD070700A21646 /* LeaderboardTableViewCell.swift in Sources */,
+				151665F91EDDFFD500A21646 /* MaterialView.swift in Sources */,
+				15350F691ED69F400035D623 /* BodyTempatureViewController.swift in Sources */,
+				15EBABE81ECECCD500051205 /* ThirdViewController.swift in Sources */,
+				154F946C1ED4A83500F6F4DD /* StepViewController.swift in Sources */,
+				1567D0971EDBF19D00FB6B6E /* FriendTableViewCell.swift in Sources */,
 				15EBABAD1ECE3D0600051205 /* ViewController.swift in Sources */,
 				15EBABAB1ECE3D0600051205 /* AppDelegate.swift in Sources */,
+				154F94771ED5454E00F6F4DD /* Entity+CoreDataClass.swift in Sources */,
+				154F94471ED2C37000F6F4DD /* TabbarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +603,13 @@
 		};
 		15EBABBD1ECE3D0600051205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D01072ABDD3556CA5E71FE /* Pods-RJTHealthAndFitness.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RJTHealthAndFitness/RJTHealthAndFitness.entitlements;
 				DEVELOPMENT_TEAM = RQAE768Z9N;
 				INFOPLIST_FILE = RJTHealthAndFitness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mAc.RJTHealthAndFitness;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,10 +619,13 @@
 		};
 		15EBABBE1ECE3D0600051205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E43BAF1EAA94FE34CCA84FCD /* Pods-RJTHealthAndFitness.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RJTHealthAndFitness/RJTHealthAndFitness.entitlements;
 				DEVELOPMENT_TEAM = RQAE768Z9N;
 				INFOPLIST_FILE = RJTHealthAndFitness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mAc.RJTHealthAndFitness;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -308,6 +652,7 @@
 				15EBABBE1ECE3D0600051205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
