@@ -1,6 +1,6 @@
 #HealthAndFitness
 ### Heart Rate
-![alt text](hhttps://github.com/wengwenjun/RJTHealthAndFitness/blob/master/heartRate.png)
+![alt text](https://github.com/wengwenjun/RJTHealthAndFitness/blob/master/heart%20rate.png)
 ### Body Tempature
 ![alt text](https://github.com/wengwenjun/RJTHealthAndFitness/blob/master/bodyTempature.png)
 ### Step
